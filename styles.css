@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url('bg-image.jpeg') no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 70%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+    padding: 24px;
+    border-radius: 16px;
+}
+a {
+    color: orange;
+}
+h1 {
+    font-size: 2em; /* Ajusta según necesidades */
+}
+
+.content {
+    font-size: 0.9em;
+}
+
+@media only screen and (max-width: 600px) {
+    .content, h1 {
+        font-size: 0.9em;
+    }
+}
